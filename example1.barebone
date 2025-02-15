@@ -1,0 +1,14 @@
+input
+jump.eq.0? l1
+
+loop:
+push 2
+sub
+jump.eq.0? l1
+jump.gt.0? loop
+print "Odd"
+stop
+
+l1:
+print "Even"
+stop
